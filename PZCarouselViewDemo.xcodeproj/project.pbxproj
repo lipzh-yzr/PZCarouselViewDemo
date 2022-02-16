@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D676981ABD54C0308BFD200E /* libPods-PZCarouselViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFEA37C05ABECD4D05D54E7 /* libPods-PZCarouselViewDemo.a */; };
+		F2E2E9AD27B20896008A262C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E2E9AC27B20896008A262C /* AppDelegate.m */; };
+		F2E2E9B327B20896008A262C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E2E9B227B20896008A262C /* ViewController.m */; };
+		F2E2E9B827B20898008A262C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E2E9B727B20898008A262C /* Assets.xcassets */; };
+		F2E2E9BB27B20898008A262C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E2E9B927B20898008A262C /* LaunchScreen.storyboard */; };
+		F2E2E9BE27B20898008A262C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E2E9BD27B20898008A262C /* main.m */; };
+		F2E2E9C727B208C4008A262C /* PZCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E2E9C627B208C4008A262C /* PZCarouselView.m */; };
+		F2E9BD5427B2154100CA1815 /* PZCarouselFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E9BD5327B2154100CA1815 /* PZCarouselFlowLayout.m */; };
+		F2E9BD6727B3DE6D00CA1815 /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2E9BD6227B3DE6D00CA1815 /* 05.jpg */; };
+		F2E9BD6827B3DE6D00CA1815 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2E9BD6327B3DE6D00CA1815 /* 03.jpg */; };
+		F2E9BD6927B3DE6D00CA1815 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2E9BD6427B3DE6D00CA1815 /* 02.jpg */; };
+		F2E9BD6A27B3DE6D00CA1815 /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2E9BD6527B3DE6D00CA1815 /* 04.jpg */; };
+		F2E9BD6B27B3DE6D00CA1815 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2E9BD6627B3DE6D00CA1815 /* 01.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9AFEA37C05ABECD4D05D54E7 /* libPods-PZCarouselViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PZCarouselViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CDB62F2E2D669998001586 /* Pods-PZCarouselViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZCarouselViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-PZCarouselViewDemo/Pods-PZCarouselViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F2E2E9A827B20896008A262C /* PZCarouselViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PZCarouselViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E2E9AB27B20896008A262C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2E2E9AC27B20896008A262C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2E2E9B127B20896008A262C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2E2E9B227B20896008A262C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2E2E9B727B20898008A262C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2E2E9BA27B20898008A262C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2E2E9BC27B20898008A262C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E2E9BD27B20898008A262C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2E2E9C527B208C4008A262C /* PZCarouselView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZCarouselView.h; sourceTree = "<group>"; };
+		F2E2E9C627B208C4008A262C /* PZCarouselView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZCarouselView.m; sourceTree = "<group>"; };
+		F2E2E9C827B209EF008A262C /* PZCarouselProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZCarouselProtocol.h; sourceTree = "<group>"; };
+		F2E9BD5227B2154100CA1815 /* PZCarouselFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZCarouselFlowLayout.h; sourceTree = "<group>"; };
+		F2E9BD5327B2154100CA1815 /* PZCarouselFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZCarouselFlowLayout.m; sourceTree = "<group>"; };
+		F2E9BD6227B3DE6D00CA1815 /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
+		F2E9BD6327B3DE6D00CA1815 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		F2E9BD6427B3DE6D00CA1815 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		F2E9BD6527B3DE6D00CA1815 /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
+		F2E9BD6627B3DE6D00CA1815 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		F572AF72DFF69D16909354CF /* Pods-PZCarouselViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZCarouselViewDemo.release.xcconfig"; path = "Target Support Files/Pods-PZCarouselViewDemo/Pods-PZCarouselViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E2E9A527B20896008A262C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D676981ABD54C0308BFD200E /* libPods-PZCarouselViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67D3823A0A622CE480742B38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AFEA37C05ABECD4D05D54E7 /* libPods-PZCarouselViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		977BA2B786D983EE085B08DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1CDB62F2E2D669998001586 /* Pods-PZCarouselViewDemo.debug.xcconfig */,
+				F572AF72DFF69D16909354CF /* Pods-PZCarouselViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2E2E99F27B20896008A262C = {
+			isa = PBXGroup;
+			children = (
+				F2E2E9AA27B20896008A262C /* PZCarouselViewDemo */,
+				F2E2E9A927B20896008A262C /* Products */,
+				977BA2B786D983EE085B08DB /* Pods */,
+				67D3823A0A622CE480742B38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E2E9A927B20896008A262C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E2E9A827B20896008A262C /* PZCarouselViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E2E9AA27B20896008A262C /* PZCarouselViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F2E2E9C427B208A3008A262C /* PZCarouselView */,
+				F2E2E9AB27B20896008A262C /* AppDelegate.h */,
+				F2E2E9AC27B20896008A262C /* AppDelegate.m */,
+				F2E2E9B127B20896008A262C /* ViewController.h */,
+				F2E2E9B227B20896008A262C /* ViewController.m */,
+				F2E2E9B727B20898008A262C /* Assets.xcassets */,
+				F2E2E9B927B20898008A262C /* LaunchScreen.storyboard */,
+				F2E2E9BC27B20898008A262C /* Info.plist */,
+				F2E2E9BD27B20898008A262C /* main.m */,
+				F2E9BD6627B3DE6D00CA1815 /* 01.jpg */,
+				F2E9BD6427B3DE6D00CA1815 /* 02.jpg */,
+				F2E9BD6327B3DE6D00CA1815 /* 03.jpg */,
+				F2E9BD6527B3DE6D00CA1815 /* 04.jpg */,
+				F2E9BD6227B3DE6D00CA1815 /* 05.jpg */,
+			);
+			path = PZCarouselViewDemo;
+			sourceTree = "<group>";
+		};
+		F2E2E9C427B208A3008A262C /* PZCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				F2E2E9C527B208C4008A262C /* PZCarouselView.h */,
+				F2E2E9C627B208C4008A262C /* PZCarouselView.m */,
+				F2E2E9C827B209EF008A262C /* PZCarouselProtocol.h */,
+				F2E9BD5227B2154100CA1815 /* PZCarouselFlowLayout.h */,
+				F2E9BD5327B2154100CA1815 /* PZCarouselFlowLayout.m */,
+			);
+			path = PZCarouselView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E2E9A727B20896008A262C /* PZCarouselViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E2E9C127B20898008A262C /* Build configuration list for PBXNativeTarget "PZCarouselViewDemo" */;
+			buildPhases = (
+				EBAB8DFE5AB01C463CE3FDBC /* [CP] Check Pods Manifest.lock */,
+				F2E2E9A427B20896008A262C /* Sources */,
+				F2E2E9A527B20896008A262C /* Frameworks */,
+				F2E2E9A627B20896008A262C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PZCarouselViewDemo;
+			productName = PZCarouselViewDemo;
+			productReference = F2E2E9A827B20896008A262C /* PZCarouselViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E2E9A027B20896008A262C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F2E2E9A727B20896008A262C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F2E2E9A327B20896008A262C /* Build configuration list for PBXProject "PZCarouselViewDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2E2E99F27B20896008A262C;
+			productRefGroup = F2E2E9A927B20896008A262C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E2E9A727B20896008A262C /* PZCarouselViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E2E9A627B20896008A262C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E9BD6927B3DE6D00CA1815 /* 02.jpg in Resources */,
+				F2E9BD6827B3DE6D00CA1815 /* 03.jpg in Resources */,
+				F2E2E9BB27B20898008A262C /* LaunchScreen.storyboard in Resources */,
+				F2E9BD6727B3DE6D00CA1815 /* 05.jpg in Resources */,
+				F2E2E9B827B20898008A262C /* Assets.xcassets in Resources */,
+				F2E9BD6A27B3DE6D00CA1815 /* 04.jpg in Resources */,
+				F2E9BD6B27B3DE6D00CA1815 /* 01.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EBAB8DFE5AB01C463CE3FDBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PZCarouselViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E2E9A427B20896008A262C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E2E9B327B20896008A262C /* ViewController.m in Sources */,
+				F2E9BD5427B2154100CA1815 /* PZCarouselFlowLayout.m in Sources */,
+				F2E2E9AD27B20896008A262C /* AppDelegate.m in Sources */,
+				F2E2E9C727B208C4008A262C /* PZCarouselView.m in Sources */,
+				F2E2E9BE27B20898008A262C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2E2E9B927B20898008A262C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E2E9BA27B20898008A262C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2E2E9BF27B20898008A262C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2E2E9C027B20898008A262C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E2E9C227B20898008A262C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1CDB62F2E2D669998001586 /* Pods-PZCarouselViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PZCarouselViewDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpz.www.PZCarouselViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2E2E9C327B20898008A262C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F572AF72DFF69D16909354CF /* Pods-PZCarouselViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PZCarouselViewDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpz.www.PZCarouselViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E2E9A327B20896008A262C /* Build configuration list for PBXProject "PZCarouselViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E2E9BF27B20898008A262C /* Debug */,
+				F2E2E9C027B20898008A262C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E2E9C127B20898008A262C /* Build configuration list for PBXNativeTarget "PZCarouselViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E2E9C227B20898008A262C /* Debug */,
+				F2E2E9C327B20898008A262C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2E2E9A027B20896008A262C /* Project object */;
+}
